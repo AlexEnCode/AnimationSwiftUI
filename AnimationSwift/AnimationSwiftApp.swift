@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-@main
+ @main
 struct AnimationSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimationGridView()
         }
     }
 }
+

@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  AnimationSwift
-//
-//  Created by apprenant74 on 25/10/2025.
-//
 
 import SwiftUI
 

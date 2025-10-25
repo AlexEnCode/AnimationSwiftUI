@@ -6,8 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8FF6DA612EAD000300A5E881 /* AnimationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA602EACFFFC00A5E881 /* AnimationControls.swift */; };
+		8FF6DA632EAD002A00A5E881 /* AnimationGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA622EAD002A00A5E881 /* AnimationGridView.swift */; };
+		8FF6DA652EAD005400A5E881 /* AnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA642EAD005400A5E881 /* AnimationCell.swift */; };
+		8FF6DA672EAD007900A5E881 /* AnimationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA662EAD007900A5E881 /* AnimationDetailView.swift */; };
+		8FF6DA692EAD009500A5E881 /* AnimatedPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA682EAD009500A5E881 /* AnimatedPreview.swift */; };
+		8FF6DA6B2EAD00B200A5E881 /* AnyViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6DA6A2EAD00B200A5E881 /* AnyViewModifier.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8FF6DA492EACFA5E00A5E881 /* AnimationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF6DA602EACFFFC00A5E881 /* AnimationControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationControls.swift; sourceTree = "<group>"; };
+		8FF6DA622EAD002A00A5E881 /* AnimationGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGridView.swift; sourceTree = "<group>"; };
+		8FF6DA642EAD005400A5E881 /* AnimationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCell.swift; sourceTree = "<group>"; };
+		8FF6DA662EAD007900A5E881 /* AnimationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetailView.swift; sourceTree = "<group>"; };
+		8FF6DA682EAD009500A5E881 /* AnimatedPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPreview.swift; sourceTree = "<group>"; };
+		8FF6DA6A2EAD00B200A5E881 /* AnyViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +49,12 @@
 			children = (
 				8FF6DA4B2EACFA5E00A5E881 /* AnimationSwift */,
 				8FF6DA4A2EACFA5E00A5E881 /* Products */,
+				8FF6DA602EACFFFC00A5E881 /* AnimationControls.swift */,
+				8FF6DA622EAD002A00A5E881 /* AnimationGridView.swift */,
+				8FF6DA642EAD005400A5E881 /* AnimationCell.swift */,
+				8FF6DA662EAD007900A5E881 /* AnimationDetailView.swift */,
+				8FF6DA682EAD009500A5E881 /* AnimatedPreview.swift */,
+				8FF6DA6A2EAD00B200A5E881 /* AnyViewModifier.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF6DA652EAD005400A5E881 /* AnimationCell.swift in Sources */,
+				8FF6DA632EAD002A00A5E881 /* AnimationGridView.swift in Sources */,
+				8FF6DA612EAD000300A5E881 /* AnimationControls.swift in Sources */,
+				8FF6DA692EAD009500A5E881 /* AnimatedPreview.swift in Sources */,
+				8FF6DA672EAD007900A5E881 /* AnimationDetailView.swift in Sources */,
+				8FF6DA6B2EAD00B200A5E881 /* AnyViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
