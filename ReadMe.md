@@ -10,7 +10,7 @@ Lorsqu’un changement d’état se produit, SwiftUI interpole les valeurs des p
 
 ---
 
-‘‘‘
+```SwiftUI
 import SwiftUI
 
 struct ModifiersExampleView: View {
@@ -50,7 +50,7 @@ struct ModifiersExampleView: View {
     ModifiersExampleView()
 }
 
-‘‘‘
+```
 
 ## 1. Les deux grandes catégories d’animations
 
